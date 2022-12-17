@@ -195,17 +195,13 @@ header .presentacion {
   align-items: center;
 }
 .contacto .form input{
-  width: 48%;
+  width: 45%;
   height: 60px;
   margin-bottom: 4%;
   padding-left: 20px;
   color: #000;
 }
 
-.contacto .form .inputs div input{
-  width: 100%;
-  
-}
 
 .contacto .form .textarea{
   width: 100%;
@@ -228,6 +224,8 @@ header .presentacion {
   color: #fff;
   margin:10% auto;
 }
+
+
 
 @media (max-width: 1000px) {
   header {
@@ -257,50 +255,56 @@ header .presentacion {
   .portafolio div{
     width: 40%;
   }
+  .clientes{
+    align-items: center;
+  }
 
   .clientes div{
     width: 40%;
-    margin: 2% auto;
-  }
-  
-}
-
-@media (max-width: 500px) {
-  header {
-    justify-content: center;
-  }
-
-  header .titulo {
-
-    margin: 15% 0 15% 0;
-    width: 100%;
-  }
-  header .presentacion {
-    padding: 15px;
-    margin: 15% auto;
-  }
-
-
-  .sobre-mi button {
-    margin: 10% auto;
-  }
-
-  .mis-skills .skill{
-    width: 90%;
-    margin: auto;
-  }
-
-  .portafolio div{
-    width: 80%;
-  }
-
-  .clientes div{
-    width: 820%;
     margin: 2% auto;
   }
 
   .contacto .form input{
     width: 100%;
   }
+
+  @media (max-width: 500px) {
+    header {
+      justify-content: center;
+    }
+  
+    header .titulo {
+  
+      margin: 15% 0 15% 0;
+      width: 100%;
+    }
+    header .presentacion {
+      padding: 15px;
+      margin: 15% auto;
+    }
+  
+  
+    .sobre-mi button {
+      margin: 10% auto;
+    }
+  
+    .mis-skills .skill{
+      width: 90%;
+      margin: auto;
+    }
+  
+    .portafolio div{
+      width: 80%;
+    }
+  
+    .clientes div{
+      width: 820%;
+      margin: 2% auto;
+    }
+  
+  }
   
 }
+
+
+  
